@@ -1,0 +1,2 @@
+Nov. 6: FitnessCalculator.java has been updated to explicitly specify the file encoding to use when reading in the shredded documents. Differences in the default encodings used in different environments led to IndexOutOfBounds exceptions for some deshreddings of document2-shredded.txt and document3-shredded.txt. This issue was observed when FitnessCalculator.java was run from the Windows terminal, and Eclipse. See line 799 of FitnessCalculator.java for the change.
+Nov. 6: The due date for the report has been extended to Monday, Nov. 16. 
